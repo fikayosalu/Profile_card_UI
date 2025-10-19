@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile Card</title>
+		<link rel="stylesheet" href="./css_styles/common.css" />
+		<link rel="stylesheet" href="./css_styles/card.css" />
+	</head>
+	<body>
+		<article data-testid="test-profile-card">
+			<figure>
+				<img
+					src="./images/CKND3493.JPG"
+					alt="User avatar"
+					data-testid="test-user-avatar"
+					id="avatar"
+				/>
+			</figure>
+			<main>
+				<h2 data-testid="test-user-name">Salu Oluwafikunayomi</h2>
+				<p data-testid="test-user-bio">
+					I am student of Mechanical Engineering at the University of Lagos. I love
+					code, this is why I decided I wanted to be a Software Engineer.
+				</p>
+				<span data-testid="test-user-time" id="time-el"></span>
+				<section>
+					<h3>Hobbies</h3>
+					<ul data-testid="test-user-hobbies">
+						<li>Gaming</li>
+						<li>Basketball</li>
+						<li>Coding</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Dislikes</h3>
+					<ul data-testid="test-user-dislikes">
+						<li>Running</li>
+						<li>Reading</li>
+						<li>Writing</li>
+					</ul>
+				</section>
+				<nav id="social-links" data-testid="test-user-social-links">
+					<a
+						href="https://www.linkedin.com/in/oluwafikunayomisalu/"
+						target="_blank"
+						rel="noopener noreferrer"
+						data-testid="test-user-social-linkedin"
+						><img src="./images/linkedin.png" alt="linkedin link" class="socials"
+					/></a>
+					<a
+						href="https://x.com/Salufreeman"
+						target="_blank"
+						rel="noopener noreferrer"
+						data-testid="test-user-social-twitter"
+						><img src="./images/twitter.png" alt="Twitter link" class="socials"
+					/></a>
+					<a
+						href="https://github.com/fikayosalu"
+						target="_blank"
+						rel="noopener noreferrer"
+						data-testid="test-user-social-github"
+						><img
+							src="./images/icons8-github-logo-94.png"
+							alt="GitHub link"
+							class="socials"
+					/></a>
+				</nav>
+			</main>
+		</article>
+		<script src="./card.js"></script>
+	</body>
+</html>
