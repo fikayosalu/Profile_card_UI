@@ -99,6 +99,14 @@ a:focus {
 		flex-direction: row;
 	}
 	#avatar {
+		width: 200px;
+	}
+}
+@media screen and (min-width: 781px) {
+	article {
+		flex-direction: row;
+	}
+	#avatar {
 		width: 400px;
 	}
 }
