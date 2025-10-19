@@ -45,4 +45,4 @@ cd Profile_card_UI
 
 ```
 
-3. Open the card.html file in your browser
+3. Open the index.html file in your browser
