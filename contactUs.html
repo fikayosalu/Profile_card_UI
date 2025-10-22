@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css_styles/contactUs.css" />
+		<link rel="stylesheet" href="./css_styles/common.css" />
+		<title>Contact Us</title>
+	</head>
+	<body>
+		<nav id="hero-nav">
+			<ul>
+				<li><a href="./index.html">Profile card</a></li>
+				<li><a href="./aboutme.html">About Me</a></li>
+				<li><a href="./contactUs.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Let's Get In Touch</h1>
+			<p>
+				Got a question, a project idea, or just want to connect? Fill out the form
+				below and I'll get back to you soon.
+			</p>
+		</header>
+		<form action="" novalidate id="container">
+			<p>
+				<label for="fullName">Full name</label>
+				<input
+					type="text"
+					id="fullName"
+					data-testid="test-contact-name"
+					aria-describedby="name-err"
+					required
+				/>
+				<span id="name-err" data-testid="test-contact-error-name"
+					>Please enter your name</span
+				>
+			</p>
+			<p>
+				<label for="email">Email</label>
+				<input
+					type="email"
+					id="email"
+					data-testid="test-contact-email"
+					placeholder="name@example.com"
+					aria-describedby="email-err"
+					required
+				/>
+				<span id="email-err" data-testid="test-contact-error-email"
+					>A correct email is required</span
+				>
+			</p>
+			<p>
+				<label for="subject">Subject</label>
+				<input
+					type="text"
+					id="subject"
+					data-testid="test-contact-subject"
+					aria-describedby="subject-err"
+					required
+				/>
+				<span id="subject-err" data-testid="test-contact-error-subject"
+					>Your report need a subject</span
+				>
+			</p>
+			<p>
+				<label for="message">Message</label>
+				<textarea
+					id="message"
+					data-testid="test-contact-message"
+					required
+					minlength="10"
+					aria-describedby="message-err"
+				></textarea>
+				<span id="message-err" data-testid="test-contact-error-message"
+					>Message must be at least 10 characters</span
+				>
+			</p>
+			<span id="submit-err" data-testid="test-contact-error-submit"
+				>Please fill all fields correctly</span
+			>
+			<span id="submit-success" data-testid="test-contact-success"
+				>Your response has been submitted</span
+			>
+			<button type="submit" id="submit" data-testid="test-contact-submit">
+				Submit
+			</button>
+		</form>
+		<script src="./form.js"></script>
+	</body>
+</html>

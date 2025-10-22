@@ -1,0 +1,62 @@
+:root {
+	--color-bg: #0b2447;
+	--color-accent: #00e6e6;
+	--color-accent-secondary: #b8d8f0;
+	--color-text-primary: #eaf2fa;
+	--color-text-secondary: #bdaea1;
+	--color-secondary-bg: #102b4e;
+	--color-error: #ff4c4c;
+	--color-success-bg: #102b4e;
+	--color-success: #1de9b6;
+}
+
+body {
+	background: var(--color-bg);
+}
+header {
+	text-align: center;
+}
+h1 {
+	font-size: 2.2rem;
+	color: var(--color-accent);
+}
+p {
+	color: var(--color-text-secondary);
+}
+form {
+	padding: 2rem 2rem;
+}
+form p {
+	margin: 2rem 0;
+	text-align: center;
+	color: var(--color-text-primary);
+}
+
+input,
+textarea {
+	padding: 10px 20px;
+	background-color: var(--color-secondary-bg);
+	color: var(--color-text-secondary);
+	border: 1px solid var(--color-accent-secondary);
+	border-radius: 10px;
+	letter-spacing: 2px;
+}
+span {
+	display: block;
+	visibility: hidden;
+	color: var(--color-error);
+}
+
+#submit-success {
+	color: var(--color-success);
+}
+
+#message {
+	padding-bottom: 50px;
+}
+#submit {
+	padding: 5px 15px;
+	background-color: var(--color-secondary-bg);
+	color: var(--color-accent-secondary);
+	width: 100%;
+}

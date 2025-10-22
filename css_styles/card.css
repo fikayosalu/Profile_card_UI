@@ -8,6 +8,13 @@
 	--color-text-secondary: #bdaea1;
 }
 
+body {
+	background-color: #1a120b;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
 article {
 	min-width: 80%;
 	margin: 0 20px;
@@ -81,7 +88,6 @@ li:hover {
 }
 
 #social-links {
-	/* background-color: aqua; */
 	text-align: center;
 }
 .socials {

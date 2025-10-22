@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+	--color-bg: linear-gradient(135deg, #0a1d37, #102b4e);
+	--color-primary-text: #e8f0fa;
+	--color-accent: #00c2cb;
+	--color-secondary-text: #4b5563;
+	--color-secondary-bg: #102b4e;
+	--color-accent-secondary: #ff7a57;
+}
+
+body {
+	background: var(--color-bg);
+}
+
+main {
+	width: 80%;
+	margin-left: 30px;
+}
+
+section {
+	background-color: #102b4e;
+	padding: 2rem;
+	margin: 2rem auto;
+	max-width: 800px;
+	border-bottom: var(--color-accent-secondary) 1px solid;
+	border-radius: 16px;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	color: #00c2cb;
+	font-size: 1.5rem;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+}
+
+p {
+	color: var(--color-primary-text);
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	opacity: 0.9;
+	line-height: 1.7;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 20px;
+	font-family: "Inter", sans-serif;
+}
+
+ul li {
+	color: var(--color-primary-text);
+}
+
+#self-note {
+	font-style: italic;
+}
